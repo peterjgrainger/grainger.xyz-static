@@ -1,6 +1,6 @@
 ---
   type: posts
-  title: Test-Driven Learning: A Better Way to Learn Any Programming Language
+  title: 'Test-Driven Learning: A Better Way to Learn Any Programming Language'
   date: 2019-08-14
 ---
   

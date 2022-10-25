@@ -1,6 +1,6 @@
 ---
   type: posts
-  title: AWS Lambda with Ruby: A Complete Getting Started Guide
+  title: 'AWS Lambda with Ruby: A Complete Getting Started Guide'
   date: 2019-11-11
 ---
   
