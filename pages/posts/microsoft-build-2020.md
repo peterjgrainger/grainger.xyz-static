@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Microsoft Build 2020 - working from home edition
   date: 2020-05-21
 ---

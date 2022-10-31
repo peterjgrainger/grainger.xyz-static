@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Creating X.509 certificates for MongoDB
   date: 2017-08-31
 ---

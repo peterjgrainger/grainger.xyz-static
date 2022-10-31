@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: 'Serverless: What and Why? A Complete Guide for IT Leaders'
   date: 2020-01-13
 ---

@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Backup and restore MongoDB with X.509 authorisation
   date: 2019-08-14
 ---

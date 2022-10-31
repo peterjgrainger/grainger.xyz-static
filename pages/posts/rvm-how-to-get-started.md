@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: 'RVM: How to Get Started and Manage Installations'
   date: 2019-10-14
 ---

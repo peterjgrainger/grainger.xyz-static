@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Install and Manage Sourcetree for Your Bitbucket Git Repository on Your Mac
   date: 2020-02-03
 ---

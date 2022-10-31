@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Phantomjs 2.0 on EC2 instance
   date: 2017-08-22
 ---

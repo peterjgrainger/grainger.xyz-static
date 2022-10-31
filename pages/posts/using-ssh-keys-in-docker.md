@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Using private TLS/SSL keys in Docker
   date: 2017-08-31
 ---

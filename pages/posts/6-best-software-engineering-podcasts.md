@@ -1,7 +1,10 @@
 ---
-  type: posts
-  title: 6 best developer podcasts on the internet right now
-  date: 2017-09-03
+
+title: 6 best developer podcasts on the internet right now
+date: 2017-09-03
+description: some description
+tag: web development
+author: You
 ---
   
 You don't know what you don't know. Apart from going to a conference the best

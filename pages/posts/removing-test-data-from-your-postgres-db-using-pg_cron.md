@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Removing test data from your AWS hosted Postgres DB automatically every day using pg_cron
   date: 2022-09-05
 ---

@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Debugging Rails with VSCode
   date: 2019-09-16
 ---

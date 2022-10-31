@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Best timeless programming books on safari online
   date: 2017-10-08
 ---

@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Creating NPM module with Typescript and Jest
   date: 2017-09-16
 ---

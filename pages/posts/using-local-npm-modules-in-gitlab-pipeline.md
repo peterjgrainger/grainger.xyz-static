@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Using self hosted gitlab npm modules in Docker container
   date: 2018-01-31
 ---

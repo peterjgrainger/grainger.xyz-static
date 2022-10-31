@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Developing locally with Docker and VS code
   date: 2018-07-22
 ---

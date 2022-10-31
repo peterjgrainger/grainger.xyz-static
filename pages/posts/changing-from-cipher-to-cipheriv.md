@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Changing from cipher to cipheriv
   date: 2018-04-20
 ---

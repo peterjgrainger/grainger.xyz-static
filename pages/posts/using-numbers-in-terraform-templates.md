@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Using numbers in terraform templates
   date: 2018-02-15
 ---

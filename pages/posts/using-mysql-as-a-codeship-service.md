@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Using a Populated MySQL 5.7 (or earlier) as a Codeship Pro Service Without your Tests Breaking
   date: 2020-05-18
 ---

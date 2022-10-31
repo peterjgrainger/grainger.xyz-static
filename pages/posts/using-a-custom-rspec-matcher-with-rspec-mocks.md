@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Using a Custom RSpec Matcher with RSpec mocks
   date: 2019-01-27
 ---

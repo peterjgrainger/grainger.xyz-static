@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Timezone in Docker Alpine not using environment variable TZ
   date: 2018-02-09
 ---

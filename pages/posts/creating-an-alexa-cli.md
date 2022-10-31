@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: How to make an Amazon Alexa skill without the annoying Skills Kit UI.
   date: 2018-03-08
 ---

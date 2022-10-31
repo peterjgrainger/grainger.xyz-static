@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: Creating the EcoBricks UK site
   date: 2019-08-14
 ---

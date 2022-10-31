@@ -1,5 +1,5 @@
 ---
-  type: posts
+  
   title: What is Quality code?
   date: 2018-09-11
 ---
