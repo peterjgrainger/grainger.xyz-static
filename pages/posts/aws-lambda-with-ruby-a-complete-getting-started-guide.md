@@ -82,20 +82,23 @@ The first named argument for the <strong>lambda_handler</strong> method is the <
 The second method argument is the <strong>context</strong>. The <strong>context</strong> is assigned to a hash, which contains methods that provide information about the function, such as the name and any limits. A full list of all the information <strong>context</strong> holds can be found in the <a href="https://docs.aws.amazon.com/lambda/latest/dg/ruby-context.html">AWS docs</a>.
 
 The below code shows my <strong>lambda_function.rb</strong> file and the method, <strong>lambda_handler.</strong>
-<pre class="nums:false lang:ruby decode:true" title="Handler function">#lambda_function.rb
-def lambda_handler(event:, context:)
-end</pre>
+```ruby
+  function">#lambda_function.rb
+  def lambda_handler(event:, context:)
+  end
+```
 The above code is the base of a Lambda function and the minimum required for the Lambda to execute.
 <h2>Reading Information From an Event</h2>
 The main method that handles the processing of our event, named <strong>lambda_handler</strong> above, accepts <strong>event </strong>as an argument. This parameter is a Ruby hash converted from a JSON string containing the origin of the event and any contextual information. For our example, this will contain the name of the bucket and key of the file stored in S3.
 
 The bucket name and key in S3 uniquely reference the image we're storing. To retrieve these values from the event hash, update the <strong>lambda_handler</strong> method to reference the <strong>bucket</strong> <strong>name</strong> and <strong>key</strong> values from the event. See the code below for how this looks in the <strong>lambda_handler</strong> function:
-<pre class="nums:false lang:ruby decode:true " title="Handler function">  def lambda_handler(event:, context:)
+```ruby
+   def lambda_handler(event:, context:)
      first_record = event["Records"].first
      bucket_name = first_record["s3"]["bucket"]["name"]
      file_name= first_record["s3"]["object"]["key"] 
   end
-</pre>
+```
 <div>
 <div>The above code shows retrieving the first record of the <strong>event</strong>. There will only be one record in total when adding a file to an S3 bucket. The <strong>bucket_name</strong> and <strong>file_name</strong> are then extracted from the record.</div>
 </div>
@@ -104,7 +107,9 @@ The bucket name and key in S3 uniquely reference the image we're storing. To ret
 To shorten the name of the file, we'll use standard Ruby libraries to extract the first 21 characters of the original file name.
 
 One of the great aspects of using Ruby for writing Lambda functions is the simplicity of string manipulation. The below code will assign the first 21 characters of the variable <strong>file_name</strong> to the variable <strong>short_name</strong>:
-<pre class="nums:false lang:ruby decode:true" title="Handler function">short_name = file_name[0..20]</pre>
+```ruby
+  short_name = file_name[0..20]
+```
 <div>
 <div>This code uses the fact that a string can be accessed the same way as arrays and selects the range from zero to 20.</div>
 </div>
@@ -113,8 +118,9 @@ One of the great aspects of using Ruby for writing Lambda functions is the simpl
 <div>Lambda functions are already configured to use the <a href="https://aws.amazon.com/sdk-for-ruby/">AWS SDK for Ruby</a>, so no gems need to be installed before we can use the library. To reference the SDK, add a <strong>require</strong> statement to the top of your <strong>lambda_function.rb </strong>file. The below code shows the <strong>require</strong> statement at the top of the <strong>lambda_function.rb</strong> file:</div>
 </div>
 <div>
-<pre class="nums:false lang:ruby decode:true" title="Handler function"> require "aws-sdk-s3"
-</pre>
+```ruby
+  require "aws-sdk-s3"
+```
 <div>
 <div>The code above loads the gem containing helper functions to communicate with the S3 service.</div>
 </div>

@@ -1,7 +1,6 @@
 ---
   
   title: Development Testing Nuance Dragon Naturally Speaking on mac
-  tag: olly web development
   date: 2017-10-20
 ---
   

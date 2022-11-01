@@ -116,7 +116,7 @@ Select `attach to Docker` from the dropdown and press <kbd>F5</kbd> or the ▶�
 ![debug tab](https://msdnshared.blob.core.windows.net/media/2017/09/ps1.png "debug tab")
 
 #### Go back to the code view
-Navigate to the `src/index.js` file (file finder shortcut: <kbd>⌘</kbd><kbd>p</kbd)
+Navigate to the `src/index.js` file (file finder shortcut: <kbd>⌘</kbd><kbd>p</kbd>
 
 Click in the left margin to add a breakpoint on the line 15
 

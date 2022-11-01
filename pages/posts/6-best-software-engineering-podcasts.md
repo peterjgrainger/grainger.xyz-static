@@ -3,7 +3,6 @@
 title: 6 best developer podcasts on the internet right now
 date: 2017-09-03
 description: some description
-tag: web development
 author: You
 ---
   
